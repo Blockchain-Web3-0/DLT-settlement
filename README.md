@@ -37,21 +37,3 @@ module.exports = {
     }
   }
 };
-Code and File Structure
-Here’s how you might structure your project for Project Ion:
-
-project-ion/
-│
-├── contracts/
-│   └── SettlementContract.sol    # Smart contract for settlement
-│
-├── scripts/
-│   └── deploy.js                 # Deployment script
-│
-├── test/
-│   └── testSettlementContract.js # Test cases
-│
-├── hardhat.config.js             # Hardhat configuration
-├── package.json                  # Dependencies and scripts
-├── .gitignore                    # Git ignore file
-└── README.md                     # Project documentation
